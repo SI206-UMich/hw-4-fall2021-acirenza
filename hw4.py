@@ -240,7 +240,7 @@ def main():
     alexis.validate_order(cashier_1, stall_3, "bread", 2)
     courtney.validate_order(cashier_2, stall_1, "pasta", 3)
     #case 2: the casher has the stall, but not enough ordered food or the ordered food item
-    alexis.validate_order(cashier_1, stall_1, "cookie", 20)
+    alexis.validate_order(cashier_1, stall_1, "chicken", 40)
     courtney.validate_order(cashier_2, stall_2, "brownie", 41)
     
     #case 3: the customer does not have enough money to pay for the order: 
