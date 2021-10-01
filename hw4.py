@@ -252,10 +252,6 @@ def main():
     courtney.validate_order(cashier_2, stall_2, "ice cream", 3)
     alexis.validate_order(cashier_1, stall_1, "pasta", 2)
 
-    print(stall_1)
-    print(stall_2)
-    print(stall_3)
-
 
 if __name__ == "__main__":
     main()
